@@ -30,20 +30,20 @@ int main() {
 	
 	while(true)
 	{
-		cout << "Óãàäàéòå ÷èñëî" << endl;
+		cout << "Ğ£Ğ³Ğ°Ğ´Ğ°Ğ¹Ñ‚Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾" << endl;
 		cin >> ans;
 		if (ans == secret_num) {
-			cout << "×èñëî ïîïûòîê " << attempts << endl;
+			cout << "Ğ§Ğ¸ÑĞ»Ğ¾ Ğ¿Ğ¾Ğ¿Ñ‹Ñ‚Ğ¾Ğº " << attempts << endl;
 			break;
 		}
 		else {
 			attempts++;
 		}
 		if (ans > secret_num) {
-			cout << "Ìåíüøå"<<endl;
+			cout << "ĞœĞµĞ½ÑŒÑˆĞµ"<<endl;
 		}
 		else {
-			cout << "Áîëüøå" << endl;
+			cout << "Ğ‘Ğ¾Ğ»ÑŒÑˆĞµ" << endl;
 		}
 		system("cls");
 		
@@ -55,20 +55,20 @@ int main() {
 		secret_num /= 10;
 	}
 
-	cout <<"Ñóììà ÷èñåë:"<< sum<<endl;
+	cout <<"Ğ¡ÑƒĞ¼Ğ¼Ğ° Ñ‡Ğ¸ÑĞµĞ»:"<< sum<<endl;
 
 	for (long long i=1;i <= ans;i++) {
 		fact *= i;
 	}
 	
-	cout <<"Ôàêòîğèàë :"<< fact << endl;
+	cout <<"Ğ¤Ğ°ĞºÑ‚Ğ¾Ñ€Ğ¸Ğ°Ğ» :"<< fact << endl;
 
 	if (prime(ans)==true) {
 		cout << "Prostoe" << endl;
 	}
 	else
 	{
-		cout << "Äåëèòåëè"<< endl;
+		cout << "Ğ”ĞµĞ»Ğ¸Ñ‚ĞµĞ»Ğ¸"<< endl;
 
 		for(unsigned long long i=2; i<=sqrt(ans);i++)
 			if (ans % i == 0) {
