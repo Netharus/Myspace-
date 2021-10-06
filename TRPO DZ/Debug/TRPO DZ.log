@@ -1,0 +1,4 @@
+﻿  1.cpp
+C:\Users\nekro\source\repos\TRPO DZ\TRPO DZ\1.cpp(18,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\nekro\source\repos\TRPO DZ\TRPO DZ\1.cpp(60,23): warning C4018: <=: несоответствие типов со знаком и без знака
+  TRPO DZ.vcxproj -> C:\Users\nekro\source\repos\TRPO DZ\Debug\TRPO DZ.exe
